@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome-linking!.: -->
+    <script src="https://kit.fontawesome.com/0eaad497dd.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <title>Ackermann's University</title>
+    <!-- css-linking!.: -->
+    <link rel="stylesheet" href="style.css">
+    <!--  -->
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
+    <!-- end -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+     <!-- favicon -->
+      <link rel="shortcut icon" href="/static/img/img-icon.jpg" type="image/x-icon">
+      <!--  -->
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <section class="sub-header">
+        <nav class="nav">
+            <a href="index.html" class="head-icon"><img src="/static/img/download.png" alt="" class="img-icon"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li> 
+                    <li><a href="Course.html">COURSE</a></li> 
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+
+    <!-- contact us content-->
+     <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3208293207813!2d3.3072916749936567!3d6.606996793386961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9171cc1003e7%3A0x41b094d0120d48e7!2sAptech%20Computer%20Education%2C%20Akowonjo!5e0!3m2!1sen!2sng!4v1737827934073!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </section>
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div><i class="fa-solid fa-house"></i>
+                    <span>
+                       <h5>2 Akowonjo Rd, Shasha Rd, opposite Dopemu Under Bridge</h5>
+                       <p>Alimosho, Ikeja 102213, Lagos</p>
+                    </span>
+                </div>
+                <div><i class="fa-solid fa-phone"></i>
+                    <span>
+                       <h5>+234 9116446034</h5>
+                       <p>Monday to Saturday 8AM to 7PM</p>
+                    </span>
+                </div>
+                <div><i class="fa-solid fa-envelope"></i>
+                    <span>
+                       <h5>Info@uzoelumevans.com</h5>
+                       <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form   action="https://formspree.io/f/xldglnkg"
+                method="POST">
+                    <input type="text" name="text" placeholder="Enter your name" required min="3" max="20">
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required min="3">
+                    <textarea rows="8" placeholder="Message" name="Message" required min="3"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+     </section>
+     
+
+
+
+
+
+    
+
+  
+
+       <!-- footer -->
+        <section class="footer">
+            <!-- <h4>About Us</h4> -->
+
+            <button class="hero-btn">
+                <a href="#root" style="color: black;">Go To Top</a>
+            </button>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corporis accusantium maiores temporibus magnam rerum aliquid cumque,<br> qui autem numquam. Nemo, earu-m! Facere debitis ipsa earum, at eum libero reprehenderit?</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ff5900;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-whatsapp" style="color: #ff5900;"></i>
+                <p>Made with <i class="fa-regular fa-heart" style="color: #ff5900;"></i> by Evans' Industries</p>
+            </div>
+        </section>
+
+    
+
+
+
+
+
+ <!-- java-script-for-menubar!.: -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+    function ShowMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+
+    }
+  </script>
+    <!-- java-script-for-menubar-end!.: -->
+
+</body>
+</html>

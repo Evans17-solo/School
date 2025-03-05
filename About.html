@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome-linking!.: -->
+    <script src="https://kit.fontawesome.com/0eaad497dd.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <title>Ackermann's University</title>
+    <!-- css-linking!.: -->
+    <link rel="stylesheet" href="style.css">
+    <!--  -->
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
+    <!-- end -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+     <!-- favicon -->
+      <link rel="shortcut icon" href="/static/img/img-icon.jpg" type="image/x-icon">
+      <!--  -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="nav">
+            <a href="index.html" class="head-icon"><img src="/static/img/download.png" alt="" class="img-icon"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li> 
+                    <li><a href="Course.html">COURSE</a></li> 
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+
+    <!-- about us content-->
+       <section class="About us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are the World's Largest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aperiam provident vero sint ad harum perferendis. Vitae reiciendis atque totam ipsa! Eos fugit beatae ipsum quisquam, sapiente dolor dolore quo!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="static/img/about.avif" alt="">
+            </div>
+        </div>
+       </section>
+
+
+
+
+
+    
+
+  
+
+       <!-- footer -->
+        <section class="footer">
+            <!-- <h4>About Us</h4> -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corporis accusantium maiores temporibus magnam rerum aliquid cumque,<br> qui autem numquam. Nemo, earum! Facere debitis ipsa earum, at eum libero reprehenderit?</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ff5900;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ff6600;"></i>
+                <i class="fa-brands fa-whatsapp" style="color: #ff5900;"></i>
+                <p>Made with <i class="fa-regular fa-heart" style="color: #ff5900;"></i> by Evans' Industries</p>
+            </div>
+        </section>
+
+    
+
+
+
+
+
+ <!-- java-script-for-menubar!.: -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks")
+    function ShowMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+
+    }
+  </script>
+    <!-- java-script-for-menubar-end!.: -->
+
+</body>
+</html>
